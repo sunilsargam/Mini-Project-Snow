@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>ProjTrial1</name>
+        <required_roles>admin</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 06:39:54</sys_created_on>
+        <sys_id>77e4f6870710301090bff1d08c1ed029</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ProjTrial1</sys_name>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_77e4f6870710301090bff1d08c1ed029</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 06:39:54</sys_updated_on>
+        <title>ProjTrial1</title>
+    </sys_sg_applet_launcher>
+</record_update>
