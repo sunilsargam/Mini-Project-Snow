@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_563849_projtrial_parking_info</description>
+        <name>x_563849_projtrial_parking_info</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 09:07:44</sys_created_on>
+        <sys_id>6dc6db8f0750301090bff1d08c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_563849_projtrial_parking_info</sys_name>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_update_name>sys_security_acl_6dc6db8f0750301090bff1d08c1ed07b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 09:07:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</application>
+        <file_path/>
+        <instance_id>3a9227e8dba83b002f68c597059619f2</instance_id>
+        <instance_name>dev77744</instance_name>
+        <name>sys_security_acl_6dc6db8f0750301090bff1d08c1ed07b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_563849_projtrial_parking_info</description><name>x_563849_projtrial_parking_info</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-28 09:07:44</sys_created_on><sys_id>6dc6db8f0750301090bff1d08c1ed07b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_563849_projtrial_parking_info</sys_name><sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package><sys_policy/><sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope><sys_update_name>sys_security_acl_6dc6db8f0750301090bff1d08c1ed07b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-28 09:07:44</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1012934955</payload_hash>
+        <record_name>x_563849_projtrial_parking_info</record_name>
+        <reverted_from/>
+        <source>5d65f6470710301090bff1d08c1ed0e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 09:07:44</sys_created_on>
+        <sys_id>25c6db8f0750301090bff1d08c1ed07e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179b23abeb90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 09:07:44</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>6dc6db8fd8503010392bc5872c8a817d</update_guid>
+        <update_guid_history>6dc6db8fd8503010392bc5872c8a817d:1012934955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 09:12:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>09252d829fa14c7c9b7dcfa520c33024</sys_id>
+        <sys_metadata>6dc6db8f0750301090bff1d08c1ed07b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_563849_projtrial_parking_info</sys_name>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_parent display_value="">e5c6db8f0750301090bff1d08c1ed08d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_scope_delete display_value="">b9581378af284f3cba3e457bbcc3b204</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6dc6db8f0750301090bff1d08c1ed07b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6dc6db8f0750301090bff1d08c1ed07b">25c6db8f0750301090bff1d08c1ed07e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 09:12:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

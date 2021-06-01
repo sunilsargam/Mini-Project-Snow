@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_563849_projtrial_parking">x_563849_projtrial_parking</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SLOT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 06:57:12</sys_created_on>
+        <sys_id>f81c01b70710301090bff1d08c1ed0d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLOT</sys_name>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_update_name>sys_number_f81c01b70710301090bff1d08c1ed0d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 06:57:12</sys_updated_on>
+    </sys_number>
+</record_update>

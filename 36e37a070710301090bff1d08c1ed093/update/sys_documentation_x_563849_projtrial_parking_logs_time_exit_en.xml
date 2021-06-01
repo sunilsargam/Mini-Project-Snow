@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="time_exit" label="Time Exit" language="en" table="x_563849_projtrial_parking_logs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>time_exit</element>
+            <help/>
+            <hint/>
+            <label>Time Exit</label>
+            <language>en</language>
+            <name>x_563849_projtrial_parking_logs</name>
+            <plural>Time Exits</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-31 07:23:16</sys_created_on>
+            <sys_id>10ab1e4007a0301090bff1d08c1ed013</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Time Exit</sys_name>
+            <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+            <sys_update_name>sys_documentation_x_563849_projtrial_parking_logs_time_exit_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-31 07:23:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_563849_projtrial_emp" label="parking" max_length="40" name="x_563849_projtrial_parking" sizeclass="15" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="yes" label="Availability" mandatory="true" max_length="40" name="avail" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="available" max_length="5" name="available" type="integer"/>
+        <element label="available_park" max_length="0" name="available_parking_spots" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Car Registration Number" max_length="40" name="car_reg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Entry Time" max_length="40" name="entry_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Exit Time" max_length="40" name="exit_time" type="glide_date_time"/>
+        <element label="Occupied" max_length="5" name="occupied" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Occupied By" max_length="40" name="occu_by" type="string"/>
+        <element label="startloc" max_length="20" name="start_location" type="string"/>
+        <element default="20" label="parkingslot" max_length="3" name="total_parking_slots" read_only="true" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Parking Logs" max_length="40" name="x_563849_projtrial_parking_logs" sizeclass="0" type="collection">
+        <element label="EMP ID" mandatory="true" max_length="40" name="emp_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IN or OUT" max_length="40" name="inout" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IN" sequence="0" value="in"/>
+                <element inactive_on_update="false" label="OUT" sequence="1" value="out"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" dependent="number" dependent_on_field="number" label="Slot Alloated" max_length="32" name="slot_alloated" read_only="true" reference="x_563849_projtrial_parking" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Entry" max_length="40" name="time_entry" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Exit" max_length="40" name="time_exit" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" dependent="number" dependent_on_field="number" label="EMP ID" max_length="32" name="u_reference_4" reference="x_563849_projtrial_emp" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="slot_alloated"/>
+        </index>
+    </element>
+</database>

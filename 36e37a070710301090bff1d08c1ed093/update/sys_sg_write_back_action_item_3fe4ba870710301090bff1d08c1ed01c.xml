@@ -3,6 +3,7 @@
         <description/>
         <execution_script/>
         <name>Delete (EMP)</name>
+        <parameter_screen/>
         <query_condition/>
         <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>

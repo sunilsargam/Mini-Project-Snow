@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This will show automated results in for allocated slot from parking slot table to parking log table</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Parking slot allocation</name>
+        <order/>
+        <script><![CDATA[var test = new GlideRecord('x_563849_projtrial_parking');
+test.addQuery('avail',yes);
+test.query();
+while(test.next())
+{
+		g_form.setValue('slot_alloated',test);
+//		g_form.setValue('avail',no);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 11:43:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c94e106c0768301090bff1d08c1ed0ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking slot allocation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_update_name>sys_script_client_c94e106c0768301090bff1d08c1ed0ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 11:43:16</sys_updated_on>
+        <table>x_563849_projtrial_parking_logs</table>
+        <type/>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

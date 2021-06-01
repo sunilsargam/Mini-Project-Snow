@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_563849_projtrial.parking_info_user" name="x_563849_projtrial.parking_info_user">d5c6d74f0750301090bff1d08c1ed096</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-28 09:07:44</sys_created_on>
+        <sys_id>9dc6d74f0750301090bff1d08c1ed099</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d5c6d74f0750301090bff1d08c1ed096</sys_name>
+        <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+        <sys_update_name>sys_embedded_help_role_9dc6d74f0750301090bff1d08c1ed099</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-28 09:07:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

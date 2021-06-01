@@ -2,6 +2,8 @@
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Activity Stream">3fe4f6870710301090bff1d08c1ed02e</embedded_screen>
         <form display_value="EMP Form Screen">ffe4f6870710301090bff1d08c1ed02d</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
         <order>20</order>
         <sys_class_name>sys_sg_form_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>

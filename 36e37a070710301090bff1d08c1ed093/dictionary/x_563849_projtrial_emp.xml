@@ -1,3 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="EMP" max_length="40" name="x_563849_projtrial_emp" type="collection"/>
+    <element extends="task" label="EMP" max_length="40" name="x_563849_projtrial_emp" sizeclass="17" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="vehicle_own" max_length="40" name="doyouownvehicle" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="car_pool" max_length="40" name="doyouwanttopooling" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Emp ID" max_length="40" name="emp_id" type="string"/>
+        <element label="Mobile Num" mandatory="true" max_length="40" name="emp_mobilenum" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="255" name="emp_name" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="end_loc" max_length="40" name="endlocation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="car_pooling" max_length="40" name="interestedincarpooling" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="pool_cap" max_length="40" name="poolingcapacity" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="start_loc" max_length="40" name="startlocation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ABC" sequence="0" value="abc"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="XYZ" sequence="1" value="xyz"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="OPQ Dept" sequence="2" value="opq"/>
+                <element inactive_on_update="false" label="PQR" sequence="2" value="pqr"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you own a Car ?" mandatory="true" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interested In Car Pooling ?" mandatory="true" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pooling Capacity" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="One" sequence="0" value="one"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Two" sequence="1" value="two"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Three" sequence="2" value="three"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Car Registration Number" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Location" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Location" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vehicle_num" max_length="40" name="vehicleregistrationnumber" type="string"/>
+    </element>
 </database>

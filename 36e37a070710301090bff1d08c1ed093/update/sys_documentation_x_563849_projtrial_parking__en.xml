@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="parking" language="en" table="x_563849_projtrial_parking">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>parking</label>
+            <language>en</language>
+            <name>x_563849_projtrial_parking</name>
+            <plural>parkings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-28 09:17:25</sys_created_on>
+            <sys_id>97f89b030790301090bff1d08c1ed0be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>parking</sys_name>
+            <sys_package display_value="ProjTrial1" source="x_563849_projtrial">36e37a070710301090bff1d08c1ed093</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ProjTrial1">36e37a070710301090bff1d08c1ed093</sys_scope>
+            <sys_update_name>sys_documentation_x_563849_projtrial_parking__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-28 09:17:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
